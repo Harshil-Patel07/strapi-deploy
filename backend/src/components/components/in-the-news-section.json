@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_in_the_news_sections",
+  "info": {
+    "displayName": "In the News Section",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "press_blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::press-blog.press-blog"
+    }
+  }
+}

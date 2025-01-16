@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_components_primary_hero_section_s",
+  "info": {
+    "displayName": "Primary Hero Section ",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heroContent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.primary-hero-content"
+    },
+    "backgroundColorImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "heroTitle": {
+      "type": "string"
+    }
+  }
+}

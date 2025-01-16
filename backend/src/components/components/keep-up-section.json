@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_keep_up_section_s",
+  "info": {
+    "displayName": "Keep Up Section ",
+    "icon": "layout",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "keepUpListItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.keep-up-list-item"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

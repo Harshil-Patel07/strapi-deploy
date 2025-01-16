@@ -1,0 +1,49 @@
+{
+  "collectionName": "components_atoms_publication_list_items",
+  "info": {
+    "displayName": "Publication List Items",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "publicationImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "publishDate": {
+      "type": "date"
+    },
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Information",
+        "Press Release",
+        "Thought Leadership",
+        "Publication",
+        "Insights",
+        "معلومة",
+        "بيان صحفي",
+        "قيادة الفكر",
+        "النشر",
+        "أفكار"
+      ]
+    },
+    "publicationTitle": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_components_geneva_sections",
+  "info": {
+    "displayName": "Geneva Section",
+    "icon": "briefcase",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "date": {
+      "type": "date"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.button"
+    }
+  }
+}

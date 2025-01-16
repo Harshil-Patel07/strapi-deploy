@@ -1,0 +1,82 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "slug": {
+      "type": "uid"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "components.hero-section",
+        "components.video-section",
+        "components.our-story-section",
+        "components.keep-up-section",
+        "components.newsletter-section",
+        "components.inquirie-section",
+        "components.faq-section",
+        "components.stats-block-section",
+        "components.image-text-block",
+        "components.speakers-section",
+        "components.privacy-policy",
+        "components.download-section",
+        "components.contact-us-section",
+        "components.partners-section",
+        "components.title-content-section",
+        "components.saudi-section",
+        "components.visa-requirements-section",
+        "components.press-releases-section",
+        "components.in-the-news-section",
+        "components.publication-hero",
+        "components.more-publication",
+        "components.insight-hero",
+        "components.more-insight",
+        "components.featured-video",
+        "components.more-video-section"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "description": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

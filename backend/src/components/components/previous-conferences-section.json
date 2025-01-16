@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_components_previous_conferences_sections",
+  "info": {
+    "displayName": "Previous Conferences Section",
+    "icon": "collapse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "previousConferencesList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.previous-conferences-list"
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    }
+  }
+}

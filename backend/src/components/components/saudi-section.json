@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_saudi_sections",
+  "info": {
+    "displayName": "Saudi Section",
+    "icon": "connector",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "saudi_positions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::saudi-position.saudi-position"
+    },
+    "loadMore": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    }
+  }
+}

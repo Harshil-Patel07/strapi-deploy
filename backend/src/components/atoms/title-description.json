@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_atoms_title_descriptions",
+  "info": {
+    "displayName": "Title Description",
+    "icon": "envelop"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    }
+  }
+}

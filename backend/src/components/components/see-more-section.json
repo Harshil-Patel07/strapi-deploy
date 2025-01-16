@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_see_more_sections",
+  "info": {
+    "displayName": "See More Section",
+    "icon": "crop"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

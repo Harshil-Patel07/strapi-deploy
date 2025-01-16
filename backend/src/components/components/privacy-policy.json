@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_privacy_policies",
+  "info": {
+    "displayName": "Privacy Policy",
+    "icon": "envelop"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_components_press_releases_sections",
+  "info": {
+    "displayName": "Press Releases Section",
+    "icon": "crown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    }
+  }
+}

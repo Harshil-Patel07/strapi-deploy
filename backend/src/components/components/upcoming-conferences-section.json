@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_components_upcoming_conferences_section_s",
+  "info": {
+    "displayName": "Upcoming Conferences Section ",
+    "icon": "command",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "bannerImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "fromDate": {
+      "type": "date"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "IN PERSON",
+        "PUBLICATION"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "toDate": {
+      "type": "date"
+    }
+  }
+}

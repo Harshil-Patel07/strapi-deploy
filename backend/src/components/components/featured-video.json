@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_featured_videos",
+  "info": {
+    "displayName": "Featured Video",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "video_lists": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::video-list.video-list"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_partners_sections",
+  "info": {
+    "displayName": "Partners Section",
+    "icon": "code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "partners_logos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::partners-logo.partners-logo"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_atoms_partner_logo_lists",
+  "info": {
+    "displayName": "PartnerLogo List",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string"
+    },
+    "partnerLogo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

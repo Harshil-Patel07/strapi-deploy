@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_speakers_sections",
+  "info": {
+    "displayName": "Speakers Section",
+    "icon": "envelop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "speakers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.speakers-section"
+    },
+    "heading": {
+      "type": "string"
+    }
+  }
+}

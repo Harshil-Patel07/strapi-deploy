@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_events_sections",
+  "info": {
+    "displayName": "Events Section",
+    "icon": "envelop"
+  },
+  "options": {},
+  "attributes": {
+    "eventsList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.events-section"
+    }
+  }
+}

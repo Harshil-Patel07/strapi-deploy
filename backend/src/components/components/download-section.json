@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_download_section_s",
+  "info": {
+    "displayName": "Download Section ",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "downloadCard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.title-description-download-card"
+    }
+  }
+}

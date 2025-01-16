@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_components_newsletter_sections",
+  "info": {
+    "displayName": "Newsletter Section",
+    "icon": "file",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    }
+  }
+}

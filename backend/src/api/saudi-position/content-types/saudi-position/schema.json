@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "saudi_positions",
+  "info": {
+    "singularName": "saudi-position",
+    "pluralName": "saudi-positions",
+    "displayName": "Saudi Position",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "learnMoreButton": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

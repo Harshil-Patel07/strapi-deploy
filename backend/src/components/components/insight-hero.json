@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_insight_heroes",
+  "info": {
+    "displayName": "Featured Insights Section",
+    "icon": "crown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "insight_blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::insight-blog.insight-blog"
+    }
+  }
+}

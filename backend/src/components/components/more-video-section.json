@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_more_video_sections",
+  "info": {
+    "displayName": "More Video Section",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "video_lists": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::video-list.video-list"
+    }
+  }
+}

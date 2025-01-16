@@ -1,0 +1,60 @@
+{
+  "collectionName": "components_atoms_speakers_sections",
+  "info": {
+    "displayName": "Speakers List",
+    "icon": "envelop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "speakerBioTitle": {
+      "type": "string"
+    },
+    "speakerBioDescription": {
+      "type": "blocks"
+    },
+    "speakerSession": {
+      "type": "string"
+    },
+    "thumbnailImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "video": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "bottomText": {
+      "type": "string"
+    }
+  }
+}

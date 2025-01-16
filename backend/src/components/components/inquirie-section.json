@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_inquirie_sections",
+  "info": {
+    "displayName": "inquirieSection",
+    "icon": "envelop"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    }
+  }
+}

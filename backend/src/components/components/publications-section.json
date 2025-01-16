@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_components_publications_sections",
+  "info": {
+    "displayName": "Publications Section",
+    "icon": "cloud",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "string"
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "isInsightsGLMCSection": {
+      "type": "boolean"
+    },
+    "publishings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::publishing.publishing"
+    }
+  }
+}

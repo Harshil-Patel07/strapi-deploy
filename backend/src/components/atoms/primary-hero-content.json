@@ -1,0 +1,84 @@
+{
+  "collectionName": "components_atoms_primary_hero_contents",
+  "info": {
+    "displayName": "Primary Hero Content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "readMoreLabel": {
+      "type": "string"
+    },
+    "readMoreLink": {
+      "type": "string"
+    },
+    "isExternal": {
+      "type": "boolean"
+    },
+    "mainHeading": {
+      "type": "blocks"
+    },
+    "factSheetLabel": {
+      "type": "string"
+    },
+    "factSheetLink": {
+      "type": "string"
+    },
+    "dateIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "locationIcon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "backgroundColorImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "fromDate": {
+      "type": "date"
+    },
+    "toDate": {
+      "type": "date"
+    },
+    "locationName": {
+      "type": "string"
+    }
+  }
+}

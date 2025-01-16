@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_press_social_icons",
+  "info": {
+    "displayName": "Common Social Icons",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social.links"
+    }
+  }
+}

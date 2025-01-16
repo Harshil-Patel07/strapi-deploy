@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_stats_block_sections",
+  "info": {
+    "displayName": "Stats Block Section",
+    "icon": "envelop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "statsBlock": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.stats-block-section"
+    },
+    "noticeText": {
+      "type": "string"
+    }
+  }
+}

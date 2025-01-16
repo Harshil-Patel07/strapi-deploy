@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_atoms_buttons",
+  "info": {
+    "displayName": "Button",
+    "icon": "chartCircle",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "enumeration",
+      "enum": [
+        "violet with arrow",
+        "violet",
+        "transparent",
+        "transparent with tiled-arrow",
+        "violet with star",
+        "transparent with border with tild-icon"
+      ]
+    },
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "small",
+        "medium"
+      ]
+    },
+    "isExternal": {
+      "type": "boolean"
+    }
+  }
+}

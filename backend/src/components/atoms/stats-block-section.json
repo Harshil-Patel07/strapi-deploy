@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_atoms_stats_block_sections",
+  "info": {
+    "displayName": "Stats Blocks List",
+    "icon": "envelop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "numbers": {
+      "type": "string"
+    }
+  }
+}

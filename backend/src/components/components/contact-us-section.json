@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_contact_us_sections",
+  "info": {
+    "displayName": "Contact Us Section",
+    "icon": "envelop",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleDescription": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.title-description"
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    }
+  }
+}

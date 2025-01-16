@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_publication_heroes",
+  "info": {
+    "displayName": "Featured Publication Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "publishings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::publishing.publishing"
+    }
+  }
+}

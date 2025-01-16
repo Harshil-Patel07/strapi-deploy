@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_more_publications",
+  "info": {
+    "displayName": "More Publication Section",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "publishings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::publishing.publishing"
+    }
+  }
+}

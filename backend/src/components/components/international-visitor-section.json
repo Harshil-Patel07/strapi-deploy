@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_international_visitor_sections",
+  "info": {
+    "displayName": "International Visitor Section",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "ctaButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    }
+  }
+}

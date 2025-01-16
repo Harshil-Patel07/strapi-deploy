@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_components_visa_requirements_sections",
+  "info": {
+    "displayName": "Visa Requirements Section",
+    "icon": "dashboard"
+  },
+  "options": {},
+  "attributes": {
+    "bannerImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "heading": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "buttonLabel": {
+      "type": "component",
+      "repeatable": false,
+      "component": "atoms.button"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

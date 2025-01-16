@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_atoms_keep_up_list_items",
+  "info": {
+    "displayName": "Keep Up List Item",
+    "icon": "filter"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

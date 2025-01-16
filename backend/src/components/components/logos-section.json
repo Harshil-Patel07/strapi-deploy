@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_components_logos_sections",
+  "info": {
+    "displayName": "Logos Section",
+    "icon": "repeat",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logos": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "heading": {
+      "type": "string"
+    }
+  }
+}

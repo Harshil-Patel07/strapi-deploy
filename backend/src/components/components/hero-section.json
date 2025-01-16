@@ -1,0 +1,93 @@
+{
+  "collectionName": "components_components_hero_sections",
+  "info": {
+    "displayName": "Hero Section",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "backgroundImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "location": {
+      "type": "string"
+    },
+    "usedFor": {
+      "type": "enumeration",
+      "enum": [
+        "Events",
+        "GLMC Geneva",
+        "Press Center Inner",
+        "Meet RYAN",
+        "Our Conference",
+        "About Us",
+        "Travel Information"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.button"
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "blocks"
+    },
+    "fromDate": {
+      "type": "date"
+    },
+    "toDate": {
+      "type": "date"
+    },
+    "isTwoDate": {
+      "type": "boolean"
+    },
+    "content": {
+      "type": "blocks"
+    }
+  }
+}

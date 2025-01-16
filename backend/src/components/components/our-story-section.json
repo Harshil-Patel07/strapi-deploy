@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_our_story_section_s",
+  "info": {
+    "displayName": "Our-Story Section ",
+    "icon": "filePdf",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "ourStoryListItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "atoms.our-story-list-item"
+    }
+  }
+}

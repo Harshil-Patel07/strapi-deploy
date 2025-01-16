@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "glmc_on_tours",
+  "info": {
+    "singularName": "glmc-on-tour",
+    "pluralName": "glmc-on-tours",
+    "displayName": "GLMC on Tour",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "pageTitle": {
+      "type": "string"
+    },
+    "pageDescription": {
+      "type": "text"
+    },
+    "components": {
+      "type": "dynamiczone",
+      "components": [
+        "components.hero-section",
+        "components.events-section",
+        "components.newsletter-section"
+      ]
+    }
+  }
+}

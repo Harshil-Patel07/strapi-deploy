@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_more_insights",
+  "info": {
+    "displayName": "More Insight",
+    "icon": "crop"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "insight_blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::insight-blog.insight-blog"
+    }
+  }
+}
